@@ -1,2 +1,4 @@
 #!/bin/bash
+#!/usr/bin/env bash
+# This script adds execute permission to all directories in the current directory
 find . -type d -exec chmod a+x {} \;
