@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# A Bash script that kills the 7-highlander process using SIGKILL
+
+# shellcheck disable=SC2009
+pkill -9 -f 7-highlander
