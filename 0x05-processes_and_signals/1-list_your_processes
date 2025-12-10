@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# Display all running processes including hierarchy
-ps -e --forest
+# A Bash script that displays all running processes in a tree format including all users
+
+ps -ef --forest
