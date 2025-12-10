@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# This script lists all currently running processes in a user-oriented format
+# This script displays all currently running processes with their UID and command
 
-ps -e -f
+ps -e -o uid,cmd
