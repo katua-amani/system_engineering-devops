@@ -1,4 +1,2 @@
-#!/usr/bin/env bash
-# A Bash script that displays the PID of the current script
-
-echo $$
+chmod +x 0-what-is-my-pid
+./0-what-is-my-pid
