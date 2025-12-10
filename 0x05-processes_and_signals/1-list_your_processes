@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# A Bash script that displays all running processes in a user-friendly tree format
+# A Bash script that displays the PID of the current shell
 
-ps -eo pid,ppid,cmd,user --forest
+echo $$
