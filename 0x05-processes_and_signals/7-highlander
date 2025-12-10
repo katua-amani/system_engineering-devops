@@ -1,5 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# A Bash script that handles SIGTERM and prints a message
+
 trap 'echo "I am invincible!!!"' SIGTERM
+
 while true; do
     echo "To Infinity and beyond"
     sleep 2
