@@ -1,8 +1,11 @@
 #!/usr/bin/env bash
 # A Bash script that loops infinitely and prints a message when receiving SIGTERM
 
-# Function to handle SIGTERM
-trap 'echo "I am invincible!!!" >&2' SIGTERM
+# Trap SIGTERM and print message immediately
+trap 'echo "I am invincible!!!"; fflush' SIGTERM
+
+# Bash doesn’t have a built-in fflush, but we can force flush using printf
+trap 'printf "%s\n" "I am invincible!!!"' SIGTERM
 
 # Infinite loop
 while true; do
