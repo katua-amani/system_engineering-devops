@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# A Bash script that displays the PID of the current script
+# A Bash script that lists all currently running processes in a user-friendly hierarchical format
 
-echo $$
+ps -e --forest
