@@ -1,5 +1,6 @@
-#!/usr/bin/env bash
-# A Bash script that sends SIGTERM to 7-highlander processes
-
-# shellcheck disable=SC2009
-pkill -f 7-highlander
+#!/bin/bash
+trap 'echo "I am invincible!!!"' SIGTERM
+while true; do
+    echo "To Infinity and beyond"
+    sleep 2
+done
