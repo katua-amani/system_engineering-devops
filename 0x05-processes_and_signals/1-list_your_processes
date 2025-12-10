@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# This script displays all currently running processes with their UID and command
+# Display all running processes with UID and command without header
 
-ps -e -o uid,cmd
+ps -eo uid,cmd --no-headers
