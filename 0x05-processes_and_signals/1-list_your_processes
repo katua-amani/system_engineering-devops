@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# A Bash script that displays the PID of the current shell
+# A Bash script that displays the PID of the current script
 
 echo $$
