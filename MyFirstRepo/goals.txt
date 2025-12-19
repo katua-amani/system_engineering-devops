@@ -1,5 +1,5 @@
+#!/bin/bash
 My Personal and Academic Goals for Next Year
-
 - Improve my programming and Bash scripting skills
 - Successfully complete my academic coursework
 - Build and contribute to more GitHub projects
